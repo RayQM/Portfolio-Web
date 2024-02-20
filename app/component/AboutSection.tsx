@@ -105,10 +105,10 @@ const AboutSection = () => {
     },
   ];
   return (
-    <section className="text-white ">
+    <section className="text-white lg:py-32" id="about">
       <div className="md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
-          src="/pixlr-image-generator-8b4b387f-c3f2-4ca6-9c89-0a99f5484610.png"
+          src="/pixlr-image-generator-aa1974a3-4493-4fd0-815a-8e2ce97eb7ed.png"
           alt="skill check"
           width={500}
           height={500}
