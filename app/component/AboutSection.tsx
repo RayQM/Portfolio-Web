@@ -108,6 +108,7 @@ const AboutSection = () => {
     <section className="text-white lg:py-32" id="about">
       <div className="md:grid md:grid-cols-2 gap-8  py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image
+          className="rounded-3xl"
           src="/pixlr-image-generator-aa1974a3-4493-4fd0-815a-8e2ce97eb7ed.png"
           alt="skill check"
           width={500}

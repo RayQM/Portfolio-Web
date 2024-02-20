@@ -1,10 +1,14 @@
 "use client";
 import React from "react";
-import imageH from ".././../public/He programmer b cfd31db3-5660-4108-9c34-c213c6cbb966.png";
+import Link from "next/link";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 const HeroSection = () => {
+  const downloadCV=() =>{
+    <Link href={"/public/Ray-Lei-Cover-Letter.docx"}></Link>
+  }
+
   return (
     <section className="lg:py-40">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -39,12 +43,19 @@ const HeroSection = () => {
             confident that the skills and experience I possess would provide
             value to your team.
           </p>
-          <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 text-white">
-            Hire me
-          </button>
-          <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border-white border mt-3">
+          <Link href={"#contact"}>
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 text-white">
+              Hire me
+            </button>
+          </Link>
+
+          <a
+            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border-white border mt-3"
+            href="/Qiaomu-Lei-Cover-Letter.pdf"
+            download="Qiaomu-Lei-Cover-Letter.pdf"
+          >
             Download CV
-          </button>
+          </a>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
