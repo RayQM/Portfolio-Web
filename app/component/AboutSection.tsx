@@ -25,9 +25,19 @@ const AboutSection = () => {
       id: "About Me",
       content: (
         <p className="text-base lg:text-lg h-96 break-words overflow-y-auto">
-          I am a Software Development student at the Southern Alberta Institute
-          of Technology (SAIT), graduating in April 2024. I am confident that
-          the skills and experience I possess would provide value to your team.
+          I have some expertise in the CNC business and was infatuated with CNC
+          programming; I enjoyed developing a code to complete the blueprint,
+          but it is difficult to achieve because it requires a large amount of
+          assets to be applied. After much thinking, I took the adult decision
+          to change my career path to information technology.<br></br>
+          Throughout my training, I practiced and became skilled in the theories
+          and skills required to perform the tasks of my position. During my
+          training, I expanded my knowledge of programming fundamentals by
+          working with C#, Java, and SQL databases, as well as newer
+          technologies such as Python and JavaScript. We provided a network
+          course that covered the fundamentals. I'm learning the fundamentals of
+          web programming, such as HTML, CSS, and JavaScript, as well as
+          industry-standard tools like TypeScript and React.JS.
         </p>
       ),
     },
@@ -97,9 +107,83 @@ const AboutSection = () => {
       title: "Experience",
       id: "Experience",
       content: (
-        <ul className="list-disc pl-2">
-          <li>AWS Cloud Practitioner</li>
-          <li>Google Professional Cloud Developer</li>
+        <ul className="list-disc pl-2 space-y-6 h-96 break-words overflow-y-auto">
+          <li className="space-y-4">
+            <h2 className="text-2xl">Volunteer</h2>
+            <ul className="ml-4">
+              <li className="text-lg">Backend developer --Empowered Futures</li>
+              <ul className="list-disc  pl-2 ">
+                <li className="text-sm text-[#adb7be]">
+                  Full-stack development platform with Next.js
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  UI/UX development using React.js
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  API abstraction and utilization with GraphQL
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  Data permanence with PostgresSQL 
+                </li>
+              </ul>
+            </ul>
+            <ul className="ml-4">
+              <li className="text-lg">Frontend developer -- ToolBoxAI</li>
+              <ul className="list-disc  pl-2 ">
+                <li className="text-sm text-[#adb7be]">
+                  Experienced in react express with TypeScript
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  learned Material-UI, Emotion , Axios, Chart.js,
+                  Next-Videos,Tailwind CSS
+                </li>
+              </ul>
+            </ul>
+          </li>
+          <li className="space-y-4">
+            <h2 className="text-2xl">Work Experience</h2>
+            <ul className="ml-4">
+              <li className="mb-2 text-lg">
+                CNC Machine operator --Standard Manufacturers Services Limited
+              </li>
+              <ul className="list-disc  pl-2 ">
+                <li className="text-sm text-[#adb7be]">
+                  Experienced in CNC lathe and CNC milling machine
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  Capable of efficient in interpretation engineer drawing and
+                  machine program.
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  Make changes to the offset as needed.
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  Complete inspection of parts and report.
+                </li>
+              </ul>
+            </ul>
+            <ul className="ml-4">
+              <li className="mb-2 text-lg">
+                CNC Machine operator --North Bay Machining Centre
+              </li>
+              <ul className="list-disc  pl-2 ">
+                <li className="text-sm text-[#adb7be]">
+                  Experienced in CNC lathe(Doosan 300M) CNC milling machine(Haas
+                  VF4) surface grinders drilling machine, table saw.
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  Capable of efficient in interpretation engineer drawing and
+                  machine program.
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  Make changes to the offset as needed.
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  Complete inspection of parts and report.
+                </li>
+              </ul>
+            </ul>
+          </li>
         </ul>
       ),
     },
