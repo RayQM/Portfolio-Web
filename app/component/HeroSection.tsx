@@ -5,9 +5,9 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 const HeroSection = () => {
-  const downloadCV=() =>{
-    <Link href={"/public/Ray-Lei-Cover-Letter.docx"}></Link>
-  }
+  const downloadCV = () => {
+    <Link href={"/public/Ray-Lei-Cover-Letter.docx"}></Link>;
+  };
 
   return (
     <section className="lg:py-40">
@@ -44,13 +44,13 @@ const HeroSection = () => {
             value to your team.
           </p>
           <Link href={"#contact"}>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 text-white">
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 text-white mb-5">
               Hire me
             </button>
           </Link>
 
           <a
-            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border-white border mt-3"
+            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-transparent hover:bg-slate-800 text-white border-white border md:mt-3 "
             href="/Qiaomu-Lei-Cover-Letter.pdf"
             download="Qiaomu-Lei-Cover-Letter.pdf"
           >
@@ -67,7 +67,7 @@ const HeroSection = () => {
             <Image
               src="/He programmer b cfd31db3-5660-4108-9c34-c213c6cbb966.png"
               alt="hero image"
-              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full"
+              className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 rounded-full mt-5 md:mt-0"
               width={300}
               height={300}
             />

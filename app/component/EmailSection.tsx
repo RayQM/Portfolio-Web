@@ -5,10 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { FormEvent, useState } from "react";
 const EmailSection = () => {
-  
-
-
-
   return (
     <section
       id="contact"
@@ -35,9 +31,15 @@ const EmailSection = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        
-        <p className=" border border-white h-24 w-9/12 rounded-3xl flex justify-center items-center text-3xl bg-[#ADB7BE]">
-          <Image src="/email.png" alt="Email Icon" width={40} height={40} className="mr-2"></Image><a className="hover:text-gray-500 ">Qiaomulei@gmail.com</a>
+        <p className=" border border-white h-24 w-9/12 rounded-3xl flex justify-center items-center text-sm md:text-3xl bg-[#ADB7BE]">
+          <Image
+            src="/email.png"
+            alt="Email Icon"
+            width={40}
+            height={40}
+            className="mr-2"
+          ></Image>
+          <a className="hover:text-gray-500 ">Qiaomulei@gmail.com</a>
         </p>
       </div>
     </section>
