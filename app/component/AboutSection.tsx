@@ -35,7 +35,7 @@ const AboutSection = () => {
           training, I expanded my knowledge of programming fundamentals by
           working with C#, Java, and SQL databases, as well as newer
           technologies such as Python and JavaScript. We provided a network
-          course that covered the fundamentals. I'm learning the fundamentals of
+          course that covered the fundamentals. I am learning the fundamentals of
           web programming, such as HTML, CSS, and JavaScript, as well as
           industry-standard tools like TypeScript and React.JS.
         </p>
@@ -203,23 +203,22 @@ const AboutSection = () => {
             <TabButton
               selectTab={() => handleTabChange("About Me")}
               active={tab === "About Me"}
-              children="About"
-            />
+              
+            >About</TabButton>
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
-              children="Skills"
-            />
+              
+            >Skills</TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
-              children="education"
-            />
+              
+            >Education</TabButton>
             <TabButton
               selectTab={() => handleTabChange("Experience")}
               active={tab === "Experience"}
-              children="Experience"
-            />
+            >Experience</TabButton>
           </div>
           <div className="mt-8 h-96">
             {TAB_DATA.find((t) => t.id === tab)?.content}
