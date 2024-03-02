@@ -35,8 +35,8 @@ const AboutSection = () => {
           training, I expanded my knowledge of programming fundamentals by
           working with C#, Java, and SQL databases, as well as newer
           technologies such as Python and JavaScript. We provided a network
-          course that covered the fundamentals. I am learning the fundamentals of
-          web programming, such as HTML, CSS, and JavaScript, as well as
+          course that covered the fundamentals. I am learning the fundamentals
+          of web programming, such as HTML, CSS, and JavaScript, as well as
           industry-standard tools like TypeScript and React.JS.
         </p>
       ),
@@ -109,6 +109,19 @@ const AboutSection = () => {
       content: (
         <ul className="list-disc pl-2 space-y-6 h-96 break-words overflow-y-auto">
           <li className="space-y-4">
+            <h2 className="text-2xl">Intershipe</h2>
+            <ul className="ml-4">
+              <li className="text-lg">Frontend developer -- ToolBoxesAI</li>
+              <ul className="list-disc  pl-2 ">
+                <li className="text-sm text-[#adb7be]">
+                  Experienced in react express with TypeScript
+                </li>
+                <li className="text-sm text-[#adb7be]">
+                  learned Material-UI, Emotion , Axios, Chart.js,
+                  Next-Videos,Tailwind CSS
+                </li>
+              </ul>
+            </ul>
             <h2 className="text-2xl">Volunteer</h2>
             <ul className="ml-4">
               <li className="text-lg">Backend developer --Empowered Futures</li>
@@ -123,19 +136,7 @@ const AboutSection = () => {
                   API abstraction and utilization with GraphQL
                 </li>
                 <li className="text-sm text-[#adb7be]">
-                  Data permanence with PostgresSQL 
-                </li>
-              </ul>
-            </ul>
-            <ul className="ml-4">
-              <li className="text-lg">Frontend developer -- ToolBoxAI</li>
-              <ul className="list-disc  pl-2 ">
-                <li className="text-sm text-[#adb7be]">
-                  Experienced in react express with TypeScript
-                </li>
-                <li className="text-sm text-[#adb7be]">
-                  learned Material-UI, Emotion , Axios, Chart.js,
-                  Next-Videos,Tailwind CSS
+                  Data permanence with PostgresSQL
                 </li>
               </ul>
             </ul>
