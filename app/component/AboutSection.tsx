@@ -120,6 +120,7 @@ const AboutSection = () => {
                   learned Material-UI, Emotion , Axios, Chart.js,
                   Next-Videos,Tailwind CSS
                 </li>
+                <li className="invisible">Micheal zhang : 613-252-6891</li>
               </ul>
             </ul>
             <h2 className="text-2xl">Volunteer</h2>
@@ -204,22 +205,27 @@ const AboutSection = () => {
             <TabButton
               selectTab={() => handleTabChange("About Me")}
               active={tab === "About Me"}
-              
-            >About</TabButton>
+            >
+              About
+            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
-              
-            >Skills</TabButton>
+            >
+              Skills
+            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
-              
-            >Education</TabButton>
+            >
+              Education
+            </TabButton>
             <TabButton
               selectTab={() => handleTabChange("Experience")}
               active={tab === "Experience"}
-            >Experience</TabButton>
+            >
+              Experience
+            </TabButton>
           </div>
           <div className="mt-8 h-96">
             {TAB_DATA.find((t) => t.id === tab)?.content}
