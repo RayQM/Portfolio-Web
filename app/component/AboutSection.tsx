@@ -109,7 +109,7 @@ const AboutSection = () => {
       content: (
         <ul className="list-disc pl-2 space-y-6 h-96 break-words overflow-y-auto">
           <li className="space-y-4">
-            <h2 className="text-2xl">Intershipe</h2>
+            <h2 className="text-2xl">Internship</h2>
             <ul className="ml-4">
               <li className="text-lg">Frontend developer -- ToolBoxesAI</li>
               <ul className="list-disc  pl-2 ">
