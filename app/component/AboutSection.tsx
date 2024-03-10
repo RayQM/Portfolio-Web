@@ -24,7 +24,7 @@ const AboutSection = () => {
       title: "About Me",
       id: "About Me",
       content: (
-        <p className="text-base lg:text-lg h-96 break-words overflow-y-auto">
+        <p className="text-base lg:text-lg h-96 break-words overflow-y-auto scrollbar-thin scrollbar-track scrollbar-thumb-black">
           I have some expertise in the CNC business and was infatuated with CNC
           programming; I enjoyed developing a code to complete the blueprint,
           but it is difficult to achieve because it requires a large amount of
@@ -45,7 +45,7 @@ const AboutSection = () => {
       title: "Skills",
       id: "skills",
       content: (
-        <ul className="list-disc md:grid md:grid-cols-2 pl-2 space-y-2">
+        <ul className="list-disc md:grid md:grid-cols-2 pl-2 space-y-2 scrollbar-thin scrollbar-track scrollbar-thumb-black">
           <li className="mt-2">HTML,CSS</li>
           <li>REACT.JS/REACT Native</li>
           <li>NEXT.JS</li>
@@ -65,7 +65,7 @@ const AboutSection = () => {
       title: "Education",
       id: "education",
       content: (
-        <ul className="list-disc  pl-2 space-y-6 h-96 overflow-y-auto">
+        <ul className="list-disc  pl-2 space-y-6 h-96 overflow-y-auto scrollbar-thin scrollbar-track scrollbar-thumb-black">
           <li className="text-lg">
             Diploma. Information Technology
             <ul className="ml-4">
@@ -107,7 +107,7 @@ const AboutSection = () => {
       title: "Experience",
       id: "Experience",
       content: (
-        <ul className="list-disc pl-2 space-y-6 h-96 break-words overflow-y-auto">
+        <ul className="list-disc pl-2 space-y-6 h-96 break-words overflow-y-auto scrollbar-thin scrollbar-track scrollbar-thumb-black">
           <li className="space-y-4">
             <h2 className="text-2xl">Internship</h2>
             <ul className="ml-4">

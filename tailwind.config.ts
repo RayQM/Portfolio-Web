@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-
+import { ScrollBar } from "./app/component/ScrollBar";
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,6 +15,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [ScrollBar],
 };
 export default config;
