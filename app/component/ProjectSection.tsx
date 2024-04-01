@@ -25,6 +25,16 @@ const projectsData: Project[] = [
   },
   {
     id: 2,
+    title: "what3ver",
+    description:
+      "I made this page during the internship, I used MUI and typescript to finish the frontend, this is a static website but it can adapt to medium and small screens.",
+    image: "/3.png",
+    tag: ["All", "Web"],
+    gitUrl: "null",
+    previewUrl: "https://www.what3ver.ai/",
+  },
+  {
+    id: 3,
     title: "Portfolio Website",
     description: "This is my resume !",
     image: "/2.png",
